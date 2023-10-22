@@ -1,0 +1,126 @@
+main {
+    max-width: 76pc;
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 91pc;
+    height: 40px;
+    display: inline-flex;
+    background-color: white;
+    border: 2px solid rgb(163, 152, 152);
+    
+} 
+.hdiv1 a{
+    color: #232523;
+    text-decoration: none;
+    font-size: large;
+    
+}
+.hdiv2 a{
+    margin-left: 20pc;
+    padding: 0pc;
+    color: #232523;
+    font-size: large;
+    text-decoration: none;
+
+}
+a:hover{
+    background-color: rgb(201, 198, 198);
+    block-size: 25px;
+}
+h6{
+    font-size: 25px;
+    padding-top: 40px;
+}
+.firstimg img{
+    height: 45pc;
+    width: 76pc;
+}
+.imgs1{
+    /* position: relative; */
+    display: flex;
+}
+.imgs2{
+    position: relative;
+    display: flex;
+}
+.imgs1 p{
+    display: inline-flex;
+    /* position: absolute; */
+    /* top: 5px;
+    left: 10px; */
+
+    background-color: black;
+    color: white;
+    height: 25px;
+}
+.imgs2 p{
+    display: inline-table;
+    /* position: absolute; */
+    z-index: 1;
+    background-color: black;
+    color: white;
+    height: 25px;
+    margin-right: 40px;
+}
+.firstimg p{
+    color: white;
+    left: 37pc;
+    top: 25pc;
+    z-index: 1;
+    position: absolute;
+    font-size: xx-large;
+}
+.firstimg b{
+    text-align: center;
+    display: inline-block;
+    height: 45px;
+    width: 55px;
+    background-color: black;
+}
+.card-group{
+    margin-left: 5px;
+    display: inline-flex;
+}
+
+.card-group h5{
+    margin-top: 14px;
+    font-size: large;
+}
+input{
+    height: 20px;
+    width: 275px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 8pc;
+    height: 30px;
+    background-color: #232523;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+  .lastimg img{
+    width: 76pc;
+    height: 45pc;
+  }
+  .boxf{
+    text-align: center;
+    color: white;
+    background-color: #232523;
+    width: 91pc;
+    height: pc;
+    padding-top: 20px;
+  }
